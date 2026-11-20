@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>costemer inquiry</title>
 </head>
 <body>
      <nav>
@@ -12,6 +12,41 @@
         <a href="index2.html">Available Cars</a> |
         <a href="index3.html">Customer Inquiry</a>
     </nav>
-    <h2>costemer inquiry</h2>
+    
+<h2>Contact Information</h2>
+
+     <form action="/register" method="get">
+    <label for="username">  Your Name</label>
+    <input type="text" id="username" name="username" placeholder="Enter ur name"> <br>
+<label for="email"> Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter ur email"><br>
+<label for="phone">Phone Number</label>
+<input type="tel" id="phone" name="phone" placeholder="Enter your phone number"> <br>
+<label for="contact date"> Contact-Date</label>
+<input type="date" id="contact-date" name="contact_date"><br>
+<h2>Inquiry Type</h2>
+    
+    <input type="radio" id="new" name="inquiry" value="new">
+    <label for="new">New car</label>
+    <input type="radio" id="used" name="inquiry" value="used">
+    <label for="used">Used car</label>
+    <input type="radio" id="general-inquiry" name="inquiry" value="other">
+    <label for="general-inquiry">General Inquiry</label><br>
+<label for="Message"> Your message</label>
+    <textarea name="message" id="Message" rows="5" cols="30"></textarea>
+    <input type="submit" value="Submit"> <input type="reset" value="Reset"></input><br>
+     <label for="car">Choose a car:</label>
+     <select name="car" id="car">
+        <option value="">Select a car</option>
+<option value="hyundai">Hyundai tucson</option>
+<option value="toyota">toyota land cruser</option>
+<option value="range rover">Range Rover</option>
+<option value="mercedes">Mercedes Benz</option>
+<option value="bmw">BMW</option>
+<option value="Roll royce">Rolls-Royce</option>
+     </select>
+</form>
+
+
 </body>
 </html>
